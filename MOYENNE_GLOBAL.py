@@ -1,4 +1,5 @@
 import oracledb
+import numpy as np
 
 with oracledb.connect(user="kpognon", password="azerty",host="192.168.24.52",port="1521",service_name="FREEPDB1") as connection:
     with connection.cursor() as cursor:
